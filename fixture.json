@@ -1,11 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sampleId": "city-directory",
   "sourceFixtureId": "p3-canary-city-directory",
   "nestedPath": "/dentists/seattle-wa/",
   "repository": "spyfu/siteaudit-demo-city-directory",
-  "cloudflarePagesProject": "siteaudit-demo-city-directory",
-  "productionBranch": "demo-01",
-  "publicUrl": "https://siteaudit-demo-city-directory.pages.dev/",
-  "editUrl": "https://github.com/spyfu/siteaudit-demo-city-directory/edit/demo-01/siteaudit-head.html"
+  "cloudflarePagesProjectBase": "siteaudit-demo-city-directory",
+  "productionBranches": [
+    "demo-01",
+    "demo-02",
+    "demo-03",
+    "demo-04",
+    "demo-05"
+  ]
 }
