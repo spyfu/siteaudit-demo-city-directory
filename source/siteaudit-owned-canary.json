@@ -1,0 +1,81 @@
+{
+  "id": "p3-canary-city-directory",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "city-directory",
+  "layout": "directory",
+  "surfaceModel": "local directory and guide network",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-city-directory.xlpha.com/",
+  "stack": "directory-static",
+  "install": "both",
+  "pageCount": 6,
+  "representativePaths": [
+    "/",
+    "/dentists/seattle-wa/",
+    "/neighborhoods/fremont/",
+    "/guides/choosing-an-emergency-vet/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "MetroNest Local | Neighborhood service directories and city guides",
+      "canonical": "https://p3-canary-city-directory.xlpha.com/",
+      "quirks": [
+        "directory-link-density"
+      ],
+      "eyebrow": "Seattle discovery guide"
+    },
+    {
+      "route": "/dentists/seattle-wa/",
+      "title": "Dentists in Seattle, WA with Saturday and emergency openings",
+      "canonical": "https://p3-canary-city-directory.xlpha.com/dentists/seattle-wa/",
+      "quirks": [
+        "pagination-links",
+        "query-filter-links"
+      ],
+      "eyebrow": "Seattle dentist shortlist"
+    },
+    {
+      "route": "/neighborhoods/fremont/",
+      "title": "Fremont neighborhood dental and urgent-care picks",
+      "canonical": "https://p3-canary-city-directory.xlpha.com/neighborhoods/fremont/",
+      "quirks": [
+        "dense-footer-taxonomy",
+        "near-duplicate-location-copy"
+      ],
+      "eyebrow": "Fremont neighborhood guide"
+    },
+    {
+      "route": "/guides/choosing-an-emergency-vet/",
+      "title": "Choosing an emergency vet when your regular clinic is closed",
+      "canonical": null,
+      "quirks": [
+        "missing-canonical",
+        "guide-to-directory-links"
+      ],
+      "eyebrow": "Emergency vet guide"
+    },
+    {
+      "route": "/listings/fremont-family-dental/",
+      "title": "Fremont Family Dental | Reviews, hours, and emergency-booking notes",
+      "canonical": "https://p3-canary-city-directory.xlpha.com/listings/fremont-family-dental/",
+      "quirks": [
+        "listing-to-directory-loop",
+        "neighborhood-crosslink"
+      ],
+      "eyebrow": "Provider profile"
+    },
+    {
+      "route": "/rankings/methodology/",
+      "title": "How MetroNest Local builds neighborhood rankings and service guides",
+      "canonical": "https://p3-canary-city-directory.xlpha.com/rankings/methodology/",
+      "quirks": [
+        "methodology-trust-loop",
+        "guide-to-ranking-links"
+      ],
+      "eyebrow": "Ranking methodology"
+    }
+  ]
+}
